@@ -1,0 +1,33 @@
+:root {
+    --color: rgb(248, 73, 161);
+    --color2: rgba(71, 71, 71, 0.726);
+    --color3: rgb(253, 141, 189);
+    --font2: 'Rozha One', serif;
+    --font: 'Poppins', sans-serif;
+    --font3: 'Monoton', cursive;
+}
+#about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 1;
+    width: 90%;
+    margin: 0 auto;
+    padding: 250px 0;
+}
+.title{
+    font-size: 200px;
+    font-family: var(--font2);
+}
+.para{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+.para p{
+    font-size: 14px;
+    text-align: justify;
+    color: var(--color2);
+    padding: 10px 0;
+}

@@ -1,0 +1,125 @@
+/* 
+font-family: 'Rozha One',
+serif;
+font-family: 'Poppins',
+sans-serif;
+font-family: 'Monoton',
+cursive;
+*/
+:root{
+    --color: rgb(248, 73, 161);
+    --color2:rgba(71, 71, 71, 0.726);
+    --color3: rgb(253, 141, 189);
+    --font2:'Rozha One', serif;
+    --font:'Poppins', sans-serif;
+    --font3:'Monoton', cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    scroll-behavior: smooth;
+}
+body {
+    background:rgb(243, 243, 243);
+    height: 100vh;
+    width: 100vw;
+} 
+main{ width: 90%; margin: 0 auto; padding: 250px 0; z-index: 1; height: 100vh; }
+
+h2, h2 span{
+    font-family: var(--font3);
+    font-weight: 300;
+    font-size: 30px;
+}
+h2 {
+    position: absolute;
+    float: right;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+header {
+    margin: 0 auto;
+    position: fixed;
+}
+nav {
+    float: right;
+}
+
+span {
+    color: var(--color);
+    font-family: var(--font2);
+}
+h1 {
+    font-family: var(--font2);
+    font-weight: 900;
+    font-size: 150px;
+    font-weight: bold;
+}
+.intro {
+    font-size: 30px;
+    color: rgba(71, 71, 71, 0.726);
+    font-family: var(--font2);
+}
+
+.intro b {
+    color: black;
+    font-family: var(--font);
+}
+
+footer {
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+}
+footer ul{
+    list-style: none;
+}
+footer li a {
+    text-decoration: none;
+    color: var(--color);
+    font-weight: bold;
+}
+
+footer li {
+    float: right;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+
+.first-name {
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    font-size: 400px;
+    color: rgb(255, 255, 255);
+    animation-name: first;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+    font-family: var(--font2);
+}
+
+@keyframes first { from{left:100vw} to{left:-100vw} }
+
+.last-name {
+    position: fixed;
+    top: 300px;
+    left: 100vw;
+    font-size: 400px;
+    color: rgba(196, 196, 196, 0.61);
+    animation-name: first;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    z-index: -10;
+    z-index: -11;
+    font-family: var(--font2);
+}
+
+@keyframes first { from {left: 100vw} to {left: -100vw} }
+
+

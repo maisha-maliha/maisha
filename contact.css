@@ -1,0 +1,14 @@
+#contact{
+    width: 90%;
+    margin: 250px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cont{
+    margin: 100px auto;
+    width: 90%;
+}
+.con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
