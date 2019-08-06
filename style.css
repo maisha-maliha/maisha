@@ -122,18 +122,21 @@ footer li {
 }
 
 @keyframes first { from {left: 100vw} to {left: -100vw} }
-#contact{
+
+
+#work{
     width: 90%;
-    margin: 250px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
 }
-.cont{
-    margin: 100px auto;
+#work h2{
+        font-family: var(--font-2);
+        position: inherit;
+        float: inherit;
+        margin: 20px auto;
+}
+video{
+    margin: 20px auto;
+    /* height: 100%; */
     width: 90%;
-}
-.con{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
