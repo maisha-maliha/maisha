@@ -84,7 +84,7 @@ footer li a {
     font-weight: bold;
 }
 ul{
-     width: 90%; margin: 0;
+     width: 90%;  margin: 0 auto
 }
 footer li {
     float: right;
