@@ -83,7 +83,9 @@ footer li a {
     color: var(--color);
     font-weight: bold;
 }
-
+ul{
+     width: 90%; margin: 0;
+}
 footer li {
     float: right;
     margin-left: 25px;
